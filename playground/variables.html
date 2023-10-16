@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <script>
+        // declaring variables
+        var first = 'gc'; // variable declaration statement, changeable, FUNCTION SCOPED VARIABLES
+        let age = 36; // variable declaration statement, changeable, BLOCK SCOPED VARIABLES {}
+        const cool = true;// variable declaration statement, cannot be changed, BLOCK SCOPED VARIABLES {}
+        
+        // Might be best to start using const as default 
+        // if value needs changing then chang the variavle to let
+        
+        // naming convention
+        // Variables should not start with a capital letter 
+        // Variables must start with a-z letter or _ or $
+        // iLovePizza = camel case
+        // this_is_snake_case = snake case
+        
+        console.log(first); // method / fucntion call statement 
+
+        first = 'Giancarlo';
+        // cool = false; this returns as TypeError since you are trying to change a constant variable
+        
+
+        if (age > 30) {
+            console.log("you are old");
+        } // code block are bounced within curly brackets {} and do not need semicolon ;
+        // ASI (Auntomatic Semicolon Insertion) sometimes used
+    </script>
+</body>
+</html>
