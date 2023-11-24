@@ -35,5 +35,38 @@
 // console.log(html);
 
 // NUMBERS
-const age = 36;
-const name = "gc";
+// const age = 36; // whole number
+// const name = "gc";
+// typeof (in console) will give you the type
+// const age = 36.5 FLOAT number (has decimal)
+// a + b SUM
+// a - b substraction
+// a * b Multiplication
+// a / b division
+// a ** b to the power of
+// Math. = math helper methods in console
+// example: Math.round(25.6), Math.floor(25.6), Math.random ()
+
+// const smarties = 20;
+// const kids = 3;
+
+// const eachKidGets = Math.floor(smarties / kids);
+// const daddyGetsTheRest = smarties % kids; // % is mod (modular) which means residual after a division
+// console.log(`Each kid gets ${eachKidGets} smarties`);
+
+// NaN = not a number
+
+// OBJECTS = groups of data
+// const person = {
+//   first: `giancarlo`,
+//   last: `carlin`,
+//   age: 36,
+// };
+// person.first or person.last or person.age
+
+// Undefined = when calling a variable which has been created but has no set value
+// Null = you can set a object param to null, person.middleName = null
+
+// BOOLEAN
+// something that can be det to true or false
+// === best practice (trple equals) checks for value and type to be the same
